@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 public class TestAnnotationTests {
 
     /* 테스트 클래스는 적어도 한 개 이상의 @Test 어노테이션이 달린 메소드를 가진 클래스이다.
-     * 테스트 클래스는 abstract이면 안되고, 한 개의 생성자를 가지고 있어야 한다.
+     * 테스트 클래스는 abstract(추상적)이면 안되고, 한 개의 생성자를 가지고 있어야 한다.
      * (두 개 이상 작성하면 런타임시 PreconditionViolationExcetion이 발생한다.)
      * 아무런 생성자도 작성하지 않으면 기본 생성자는 컴파일러가 자동으로 추가한다. */
     public TestAnnotationTests() {} //그래서 얘 없이 실행해도 자동으로 정상작동 된거임...
